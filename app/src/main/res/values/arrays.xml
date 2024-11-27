@@ -1,0 +1,37 @@
+<resources>
+    <string-array name="addition_problems">
+        <item>0 + 1 =</item>
+        <item>2 + 1 =</item>
+        <item>3 + 2 =</item>
+        <item>5 + 3 =</item>
+        <item>8 + 1 =</item>
+        <item>3 + 7 =</item>
+        <item>6 + 5 =</item>
+        <item>9 + 3 =</item>
+        <item>6 + 7 =</item>
+        <item>5 + 9 =</item>
+        <item>7 + 8 =</item>
+        <item>9 + 7 =</item>
+        <item>8 + 9 =</item>
+        <item>3 + 3 =</item>
+        <item>5 + 2 =</item>
+    </string-array>
+
+    <integer-array name="correct_answers">
+        <item>1</item>
+        <item>3</item>
+        <item>5</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>6</item>
+        <item>7</item>
+    </integer-array>
+</resources>

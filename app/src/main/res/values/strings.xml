@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Mappe Innlevering 1 s374926</string>
+    <string name="startTheGame">START GAME 🎮</string>
+    <string name="aboutTheGame">INFORMATION ℹ️</string>
+    <string name="preferences">PREFERANCES ⚙️</string>
+    <string name="language">Language:</string>
+    <string name="sureQuit">Are you sure you wanna quit the game?</string>
+    <string name="yes">Yes</string>
+    <string name="cancel">Cancel</string>
+    <string name="backToMainMenu">Main menu</string>
+    <string name="gameExplanation">- Solve addition problems</string>
+    <string name="gameExplanation2">- Numbers between 0 &amp; 9</string>
+    <string name="gameExplanation3">- Choose between 5, 10 or 15 questions</string>
+    <string name="gameExplanation4">- Offered in three different languages</string>
+    <string name="gameExplanation5">- Fun &amp; easy</string>
+    <string name="questions">Questions:</string>
+    <string name="OK">OK</string>
+    <string name="tooBad">Too bad</string>
+    <string name="goodJob">Good job</string>
+    <string name="veryGoodJob">Very good</string>
+    <string name="perfectJob">Perfect</string>
+    <string name="correct">correct</string>
+    <string name="gameCompleted">Game Completed</string>
+    <string name="pleaseEnterAnAnswer">Please enter a number</string>
+    <string name="almost">Almost</string>
+    <string name="correctAnswer">Correct answer was</string>
+    <string name="submit">Submit</string>
+    <string name="celebrationEmoji">🎉</string>
+    <string name="bigSmileyEmoji">😄</string>
+    <string name="smileyEmoji">😊</string>
+    <string name="sadFaceEmoji">😔️</string>
+</resources>

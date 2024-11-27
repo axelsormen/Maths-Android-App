@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Mappe Innlevering 1 s374926</string>
+    <string name="startTheGame">START SPILLET 🎮</string>
+    <string name="aboutTheGame">OM SPILLET ℹ️</string>
+    <string name="preferences">PREFERANSER ⚙️</string>
+    <string name="language">Språk:</string>
+    <string name="sureQuit">Er du sikker på du vil avslutte spillet?</string>
+    <string name="yes">Ja</string>
+    <string name="cancel">Avbryt</string>
+    <string name="backToMainMenu">Hovedmeny</string>
+    <string name="gameExplanation">- Løs addisjonsoppgaver</string>
+    <string name="gameExplanation2">- Tall mellom 0 &amp; 9</string>
+    <string name="gameExplanation3">- Velg mellom 5, 10 eller 15 oppgaver</string>
+    <string name="gameExplanation4">- Tilbys i tre forskjellige språk</string>
+    <string name="gameExplanation5">- Morsomt &amp; enkelt</string>
+    <string name="questions">Oppgaver:</string>
+    <string name="OK">OK</string>
+    <string name="tooBad">Synd</string>
+    <string name="goodJob">Bra jobba</string>
+    <string name="veryGoodJob">Veldig bra jobba</string>
+    <string name="perfectJob">Perfekt</string>
+    <string name="correct">riktige</string>
+    <string name="gameCompleted">Spillet er ferdig</string>
+    <string name="pleaseEnterAnAnswer">Vennligst skriv inn et tall</string>
+    <string name="almost">Nesten</string>
+    <string name="correctAnswer">Riktig svar var</string>
+    <string name="submit">Svar</string>
+    <string name="celebrationEmoji">🎉</string>
+    <string name="bigSmileyEmoji">😄</string>
+    <string name="smileyEmoji">😊</string>
+    <string name="sadFaceEmoji">😔</string>
+</resources>
