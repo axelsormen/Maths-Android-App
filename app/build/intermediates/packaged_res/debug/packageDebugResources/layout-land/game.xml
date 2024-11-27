@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Game">
+
+    <Button
+        android:id="@+id/buttonBackToMainMenu2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/pink"
+        android:drawableLeft="@drawable/backicon"
+        android:drawablePadding="8dp"
+        android:padding="16dp"
+        android:text="@string/backToMainMenu"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:fontFamily="@font/my_font"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintHorizontal_bias="0.02" />
+
+    <TextView
+        android:id="@+id/feedbackText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="22sp"
+        android:layout_marginLeft="55dp"
+        android:fontFamily="@font/my_font"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/buttonBackToMainMenu2"
+        android:layout_marginTop="25dp"
+        android:gravity="center" />
+
+    <LinearLayout
+        android:id="@+id/problem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="16dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/feedbackText">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/problemText"
+                android:layout_width="0dp"
+                android:layout_height="75dp"
+                android:layout_weight="0.1"
+                android:fontFamily="@font/my_font"
+                android:gravity="center"
+                android:textColor="@android:color/black"
+                android:textSize="70sp" />
+
+            <TextView
+                android:id="@+id/answerInput"
+                android:layout_width="0dp"
+                android:layout_height="75dp"
+                android:layout_weight="0.26"
+                android:fontFamily="@font/my_font"
+                android:gravity="left"
+                android:paddingStart="8dp"
+                android:paddingEnd="8dp"
+                android:text="0"
+                android:textColor="@android:color/holo_blue_dark"
+                android:textSize="70sp" />
+        </LinearLayout>
+
+        <View
+            android:id="@+id/underline"
+            android:layout_width="145dp"
+            android:layout_height="4dp"
+            android:layout_gravity="center"
+            android:layout_marginRight="145dp"
+            android:background="@android:color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/answerInput" />
+
+        <View
+            android:id="@+id/underline2"
+            android:layout_width="145dp"
+            android:layout_height="4dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="2dp"
+            android:layout_marginRight="145dp"
+            android:background="@android:color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/underline" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/numberGrid"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="28dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:weightSum="1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@id/problem"
+        app:layout_constraintVertical_bias="1.0">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="0dp"
+                android:layout_height="75dp"
+                android:layout_margin="8dp"
+                android:layout_weight="1"
+                android:backgroundTint="@color/pink"
+                android:fontFamily="@font/my_font"
+                android:text="1"
+                android:textColor="@color/black"
+                android:textSize="50sp" />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="0dp"
+                android:layout_height="75dp"
+                android:layout_margin="8dp"
+                android:layout_weight="1"
+                android:backgroundTint="@color/pink"
+                android:fontFamily="@font/my_font"
+                android:text="2"
+                android:textColor="@color/black"
+                android:textSize="50sp" />
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="0dp"
+                android:layout_height="75dp"
+                android:layout_margin="8dp"
+                android:layout_weight="1"
+                android:backgroundTint="@color/pink"
+                android:fontFamily="@font/my_font"
+                android:text="3"
+                android:textColor="@color/black"
+                android:textSize="50sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="0dp"
+                android:layout_height="75dp"
+                android:layout_margin="8dp"
+                android:layout_weight="1"
+                android:backgroundTint="@color/pink"
+                android:fontFamily="@font/my_font"
+                android:text="4"
+                android:textColor="@color/black"
+                android:textSize="50sp" />
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="0dp"
+                android:layout_height="75dp"
+                android:layout_margin="8dp"
+                android:layout_weight="1"
+                android:backgroundTint="@color/pink"
+                android:fontFamily="@font/my_font"
+                android:text="5"
+                android:textColor="@color/black"
+                android:textSize="50sp" />
+
+            <Button
+                android:id="@+id/button6"
+                android:layout_width="0dp"
+                android:layout_height="75dp"
+                android:layout_margin="8dp"
+                android:layout_weight="1"
+                android:backgroundTint="@color/pink"
+                android:fontFamily="@font/my_font"
+                android:text="6"
+                android:textColor="@color/black"
+                android:textSize="50sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button7"
+                android:layout_width="0dp"
+                android:layout_height="75dp"
+                android:layout_margin="8dp"
+                android:layout_weight="1"
+                android:backgroundTint="@color/pink"
+                android:fontFamily="@font/my_font"
+                android:text="7"
+                android:textColor="@color/black"
+                android:textSize="50sp" />
+
+            <Button
+                android:id="@+id/button8"
+                android:layout_width="0dp"
+                android:layout_height="75dp"
+                android:layout_margin="8dp"
+                android:layout_weight="1"
+                android:backgroundTint="@color/pink"
+                android:fontFamily="@font/my_font"
+                android:text="8"
+                android:textColor="@color/black"
+                android:textSize="50sp" />
+
+            <Button
+                android:id="@+id/button9"
+                android:layout_width="0dp"
+                android:layout_height="75dp"
+                android:layout_margin="8dp"
+                android:layout_weight="1"
+                android:backgroundTint="@color/pink"
+                android:fontFamily="@font/my_font"
+                android:text="9"
+                android:textColor="@color/black"
+                android:textSize="50sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button0"
+                android:layout_width="0dp"
+                android:layout_height="75dp"
+                android:layout_margin="8dp"
+                android:layout_weight="0.7"
+                android:backgroundTint="@color/pink"
+                android:fontFamily="@font/my_font"
+                android:text="0"
+                android:textColor="@color/black"
+                android:textSize="50sp" />
+
+            <Button
+                android:id="@+id/submitAnswer"
+                android:layout_width="0dp"
+                android:layout_height="75dp"
+                android:layout_margin="8dp"
+                android:layout_weight="1.5"
+                android:backgroundTint="@color/brightgreen"
+                android:fontFamily="@font/my_font"
+                android:text="@string/submit"
+                android:textColor="@color/black"
+                android:textSize="35sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="addition_problems">
+        <item>0 + 1 =</item>
+        <item>2 + 1 =</item>
+        <item>3 + 2 =</item>
+        <item>5 + 3 =</item>
+        <item>8 + 1 =</item>
+        <item>3 + 7 =</item>
+        <item>6 + 5 =</item>
+        <item>9 + 3 =</item>
+        <item>6 + 7 =</item>
+        <item>5 + 9 =</item>
+        <item>7 + 8 =</item>
+        <item>9 + 7 =</item>
+        <item>8 + 9 =</item>
+        <item>3 + 3 =</item>
+        <item>5 + 2 =</item>
+    </string-array>
+    <integer-array name="correct_answers">
+        <item>1</item>
+        <item>3</item>
+        <item>5</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>6</item>
+        <item>7</item>
+    </integer-array>
+    <color name="black">#FF000000</color>
+    <color name="blue">#007EA8</color>
+    <color name="brightgreen">#FF00FF00</color>
+    <color name="dark_red">#8B0000</color>
+    <color name="green">#4CAF50</color>
+    <color name="grey">#787778</color>
+    <color name="lightGrey">#E3E3E3</color>
+    <color name="pink">#F5B8F3</color>
+    <color name="turquoise">#0FF5D6</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="OK">OK</string>
+    <string name="aboutTheGame">INFORMATION ℹ️</string>
+    <string name="almost">Almost</string>
+    <string name="app_name">Mappe Innlevering 1 s374926</string>
+    <string name="backToMainMenu">Main menu</string>
+    <string name="bigSmileyEmoji">😄</string>
+    <string name="cancel">Cancel</string>
+    <string name="celebrationEmoji">🎉</string>
+    <string name="correct">correct</string>
+    <string name="correctAnswer">Correct answer was</string>
+    <string name="gameCompleted">Game Completed</string>
+    <string name="gameExplanation">- Solve addition problems</string>
+    <string name="gameExplanation2">- Numbers between 0 &amp; 9</string>
+    <string name="gameExplanation3">- Choose between 5, 10 or 15 questions</string>
+    <string name="gameExplanation4">- Offered in three different languages</string>
+    <string name="gameExplanation5">- Fun &amp; easy</string>
+    <string name="goodJob">Good job</string>
+    <string name="language">Language:</string>
+    <string name="perfectJob">Perfect</string>
+    <string name="pleaseEnterAnAnswer">Please enter a number</string>
+    <string name="preferences">PREFERANCES ⚙️</string>
+    <string name="questions">Questions:</string>
+    <string name="sadFaceEmoji">😔️</string>
+    <string name="smileyEmoji">😊</string>
+    <string name="startTheGame">START GAME 🎮</string>
+    <string name="submit">Submit</string>
+    <string name="sureQuit">Are you sure you wanna quit the game?</string>
+    <string name="tooBad">Too bad</string>
+    <string name="veryGoodJob">Very good</string>
+    <string name="yes">Yes</string>
+    <style name="Base.Theme.MappeInnlevering1S374926" parent="Theme.Material3.DayNight.NoActionBar">
+        
+        
+    </style>
+    <style name="Theme.MappeInnlevering1S374926" parent="Base.Theme.MappeInnlevering1S374926"/>
+</resources>

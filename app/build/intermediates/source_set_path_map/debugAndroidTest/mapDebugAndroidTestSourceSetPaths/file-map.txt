@@ -1,0 +1,6 @@
+com.example.mappeinnlevering1s374926.test.app-core-1.5.0-0 /Users/axel/.gradle/caches/transforms-4/5d4a0ce36b5c921bb1a5713f05a0ba70/transformed/core-1.5.0/res
+com.example.mappeinnlevering1s374926.test.app-annotation-experimental-1.3.1-1 /Users/axel/.gradle/caches/transforms-4/9f4a5742918c95c3cc4125fc1df0de0e/transformed/annotation-experimental-1.3.1/res
+com.example.mappeinnlevering1s374926.test.app-androidTest-2 /Users/axel/AndroidStudioProjects/MappeInnlevering1s374926/app/build/generated/res/resValues/androidTest/debug
+com.example.mappeinnlevering1s374926.test.app-mergeDebugAndroidTestResources-3 /Users/axel/AndroidStudioProjects/MappeInnlevering1s374926/app/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/merged.dir
+com.example.mappeinnlevering1s374926.test.app-mergeDebugAndroidTestResources-4 /Users/axel/AndroidStudioProjects/MappeInnlevering1s374926/app/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/stripped.dir
+com.example.mappeinnlevering1s374926.test.app-debugAndroidTest-5 /Users/axel/AndroidStudioProjects/MappeInnlevering1s374926/app/build/intermediates/merged_res/debugAndroidTest/mergeDebugAndroidTestResources

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="OK">OK</string>
+    <string name="aboutTheGame">ÜBER DAS SPIEL ℹ️</string>
+    <string name="almost">Fast</string>
+    <string name="app_name">Mappe Innlevering 1 s374926</string>
+    <string name="backToMainMenu">Hauptmenü</string>
+    <string name="bigSmileyEmoji">😄</string>
+    <string name="cancel">Abbrechen</string>
+    <string name="celebrationEmoji">🎉</string>
+    <string name="correct">korrekte Antworten</string>
+    <string name="correctAnswer">Richtige Antwort war</string>
+    <string name="gameCompleted">Spiel abgeschlossen</string>
+    <string name="gameExplanation">- Löse Additionsprobleme</string>
+    <string name="gameExplanation2">- Zahlen zwischen 0 &amp; 9</string>
+    <string name="gameExplanation3">- Wähle zwischen 5, 10 oder 15 Fragen</string>
+    <string name="gameExplanation4">- In drei verschiedenen Sprachen angeboten</string>
+    <string name="gameExplanation5">- Lustig &amp; einfach</string>
+    <string name="goodJob">Gut</string>
+    <string name="language">Sprach:</string>
+    <string name="perfectJob">Perfekt</string>
+    <string name="pleaseEnterAnAnswer">Bitte gib eine Zahl ein</string>
+    <string name="preferences">PRÄFERENZEN ⚙️</string>
+    <string name="questions">Aufgaben:</string>
+    <string name="sadFaceEmoji">😔️</string>
+    <string name="smileyEmoji">😊</string>
+    <string name="startTheGame">SPIEL STARTEN 🎮</string>
+    <string name="submit">Senden</string>
+    <string name="sureQuit">Bist du sicher, dass du das Spiel beenden möchtest?</string>
+    <string name="tooBad">Schade</string>
+    <string name="veryGoodJob">Sehr gut</string>
+    <string name="yes">Ja</string>
+</resources>

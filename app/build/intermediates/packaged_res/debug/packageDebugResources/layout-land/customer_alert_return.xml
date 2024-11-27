@@ -1,0 +1,52 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:padding="20dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/sureQuitTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/sureQuit"
+            android:fontFamily="@font/my_font"
+            android:textSize="30sp"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:paddingBottom="10dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/cancelButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cancel"
+            android:textSize="25sp"
+            android:fontFamily="@font/my_font"
+            android:textColor="@color/black"
+            android:backgroundTint="@color/pink"
+            android:layout_marginEnd="20dp"/>
+
+        <Button
+            android:id="@+id/yesButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/yes"
+            android:textSize="25sp"
+            android:fontFamily="@font/my_font"
+            android:textColor="@color/grey"
+            android:backgroundTint="@color/lightGrey"/>
+    </LinearLayout>
+</LinearLayout>
